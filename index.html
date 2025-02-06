@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Shopping Online - Shop for Mens Clothing & Accessories in India </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="utils.css" type="text/css">
+</head>
+<body>
+    <header alt="navbar" class="container" >
+        <nav  class="flex space-between ">
+            <div class="left flex items-center">
+                <img src="https://static.toiimg.com/photo/imgsize-282668,msid-80601325/80601325.jpg" style="margin-left: -100px; cursor: pointer;" >
+                   <ul class="flex items-center justify-center uppercase semibold" style="white-space: nowrap; margin-left: 35px;">
+                       <li>Men</li>
+                       <li>Women</li>
+                       <li>Kids</li>
+                       <li>Home and Living</li>
+                       <li>Beauty</li>
+                       <li>Studio</li>
+                   </ul>
+            </div>
+            <div class="right flex items-center">
+                <input placeholder="Search for products, brands and more" value="" data-reactid="907" class="search" style="margin-left: 15px;"/>
+                <div class="profile mx-2"><img src="Images/navbar/profile.png" style="width:15px; object-fit: contain; padding-left: 15px;">Profile</div>
+                <div class="wishlist mx-2"><img src="Images/navbar/wishlist.png" style="width:15px; object-fit: contain; padding-left: 18px;">Wishlist</div>
+                <div class="bag mx-2"><img src="Images/navbar/bag.png" style="width:15px; object-fit: contain; padding-left: 5px;">Bag</div>
+            </div>
+        </nav>
+    </header>
+    <section class="container section1">
+        <img src="Images/home.png"  class="homeImg" style="cursor:pointer"  alt="Year-End Sales Banner"/>
+    </section>
+    <div class="center">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide-group">
+                    <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/25/slcERGWi_d18d61004e884fe9bb6eee0dd1ae629d.jpg" id="pic">
+                    <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/25/Vn4Qo5GL_6fe0a36fcb82482395b7e245fa40c6d6.jpg" id="pic1">
+                </div>
+                <div class="slide-group">
+                    <img src="https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/28/77HR0zA0_b6dc97998d48439bb32adc2bc97a1165.jpg" id="pic2">
+                    <img src="https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/28/C994kUb7_def3aab1a62242cd9261eff049ab5187.jpg"  id="pic3">
+               </div>
+            </div>
+            <div class="dots">
+                <span class="dot active" onclick="updateDot(0)"></span>
+                <span class="dot" onclick="updateDot(1)"></span>          
+            </div>
+       </div>
+
+       <!-- <div class="slider-container">
+          <div class="cards-wrapper">
+            <div class="card"><img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/25/slcERGWi_d18d61004e884fe9bb6eee0dd1ae629d.jpg" alt="pic1"></div>
+            <div class="card"><img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/25/Vn4Qo5GL_6fe0a36fcb82482395b7e245fa40c6d6.jpg" alt="pic2"></div>
+
+            <div class="card"><img src="https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/28/77HR0zA0_b6dc97998d48439bb32adc2bc97a1165.jpg" alt="pic3"></div>
+            <div class="card"><img src="https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/28/C994kUb7_def3aab1a62242cd9261eff049ab5187.jpg" alt="pic4"></div>
+          </div>
+       </div> -->
+       <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/1/UskhTCue_6dc2919021c148c28a2d1df36dfaf8af.jpg" id="pic4" />
+       <div class="flex-container" alt="product-banners" style="padding-top: 10px;">
+            <div><img src="Images/Products/pic5.webp" style="cursor:pointer;"></div>
+            <div><img src="Images/Products/pic6.webp" style="cursor:pointer;"></div>
+            <div><img src="Images/Products/pic7.webp" style="cursor:pointer;"></div>
+            <div><img src="Images/Products/pic8.webp" style="cursor:pointer;"></div>
+            <div><img src="Images/Products/pic9.webp" style="cursor:pointer;"></div>
+            <div><img src="Images/Products/pic10.webp" style="cursor:pointer;"></div>
+       </div>
+       <div class="flex-container1" style="cursor: pointer;">
+            <div><img src="Images/Products/pic11.webp"></div>
+            <div><img src="Images/Products/pic12.webp"></div>
+            <div><img src="Images/Products/pic13.webp"></div>
+            <div><img src="Images/Products/pic14.webp"></div>
+            <div><img src="Images/Products/pic15.webp"></div>
+            <div><img src="Images/Products/pic16.webp"></div>
+       </div>
+       <div class="flex-container2" style="cursor: pointer;">
+            <div><img src="Images/Products/pic17.webp"></div>
+            <div><img src="Images/Products/pic18.webp"></div>
+            <div><img src="Images/Products/pic19.webp"></div>
+       </div>
+    </div>
+
+    <div alt="footer" class="footer" style="position:relative; margin-top: -75px; z-index:5;padding:30px 0px 40px 0px;margin-bottom:20px;background:#FAFBFC;">
+        <footer class="desktop-footerContainer">
+            <div data-reactid="3">
+                <div class="desktop-genericInfo">
+                    <div class="desktop-shopLinks">
+                        <p class="desktop-gInfoTitle">
+                           ONLINE SHOPPING
+                        </p>
+                        <a href="" id="9">Men</a>
+                        <a href="" id="10">Women</a>
+                        <a href="" id="11">Kids</a>
+                        <a href="" id="12">Home & Living</a>
+                        <a href="" id="13">Beauty</a>
+                        <a href="" id="14">Gift Cards</a>
+                        <a href="" id="15">Myntra Insider</a>
+                        <p class="desktop-gInfoTitle" id="21">USEFUL LINKS</p>
+                        <a data-refreshpage="true" href="" id="22">Blog</a>
+                        <a data-refreshpage="true" href="" id="24">Careers</a>
+                        <a data-refreshpage="true" href="" id="25">Site Map</a>
+                        <a data-refreshpage="true" href="" id="26">Corporate Information</a>
+                        <a data-refreshpage="true" href="" id="27">Whitehat</a>
+                        <a data-refreshpage="true" href="" id="28">Cleartrip</a>
+                    </div>
+                    <div class="desktop-customerPolicies" id="29">
+                        <p class="desktop-gInfoTitle" id="30">CUSTOMER POLICIES</p>
+                        <a data-refreshpage="true" href="" id="31">Contact Us</a>
+                        <a data-refreshpage="true" href="" id="32">FAQ</a>
+                        <a data-refreshpage="true" href="" id="33">T&C</a>
+                        <a data-refreshpage="true" href="" id="34">Terms Of Use</a>
+                        <a data-refreshpage="true" href="" id="35">Track Orders</a>
+                        <a data-refreshpage="true" href="" id="36">Shipping</a>
+                        <a data-refreshpage="true" href="" id="37">Cancellation</a>
+                        <a data-refreshpage="true" href="" id="38">Returns</a>
+                        <a data-refreshpage="true" href="" id="39">Privacy Policy</a>
+                        <a data-refreshpage="true" href="" id="40">Griveance Redressal</a>
+                    </div>
+                    <div class="desktop-appExperience" id="9">
+                        <p class="desktop-gInfoTitle" id="41">EXPERIENCE MYNTRA APP ON MOBILE</p>
+                        <div class="desktop-downLinkContainer" id="10" >
+                            <a href="" id="101">
+                                <img alt="Playstore banner" src="Images/footer/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png" class="desktop-androidDownLink">
+                            </a>
+                            <a href="" id="102">
+                                <img alt="Apple Appstore banner" src="Images/footer/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png" class="desktop-iOSDownLink">
+                            </a>
+                        </div>
+                       <div class="desktop-keepInTouch" id="104">
+                          <p class="desktop-inTouch" id="105">KEEP IN TOUCH</p>
+                           <a href="" class="desktop-facebook" id="106">
+                                <img alt="facebook" src="Images/footer/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png" style="width: 20px; height: 20px;">
+                           </a>
+                           <a href="" class="desktop-twitter" id="107">
+                                <img alt="twitter" src="Images/footer/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png" style="width: 20px; height: 20px;">
+                           </a>
+                           <a href="" class="desktop-youtube" id="108">
+                                <img alt="YouTube" src="Images/footer/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png" style="width: 28px; height: 20px;">
+                           </a>
+                           <a href="" class="desktop-instagram" id="109">
+                                 <img alt="Instagram" src="Images/footer/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png" style="width: 20px; height: 22px; position: relative; top: 1px">
+                           </a>
+                        </div>
+                    </div>
+                      <div class="desktop-promises" id="114">
+                        <div class="desktop-section" id="115">
+                           <div class="desktop-original" id="116">
+                             <img src="Images/footer/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" style="width: 48px; height: 40px">
+                           </div>
+                           <div id="117">
+                            <strong id="118">100% ORIGINAL</strong>
+                             gaurantee for all products at 
+                            myntra.com 
+                           </div>
+                        </div>
+                        <div class="desktop-section" id="121">
+                            <div class="desktop-return" id="122">
+                                <img src="Images/footer/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png" style="width: 48px; height: 49px;">
+                            </div>
+                            <div id="124">
+                             <strong id="125">Return within 14days</strong> 
+                             of receiving your order
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="desktop-popularSearch" id="127" width="100%" >
+                <div id="128">
+                    <hr style="margin-top: 210px;margin-right: 230px;" id="129">
+                    <div class="desktop-pSearchTitle" id="130">POPULAR SEARCHES</div>
+                    <div class="desktop-pSearchLinks" id="131">
+                        <a href="" id="132">Makeup</a>
+                        <a href="" id="133">Dresses for Girls</a>
+                        <a href="" id="134">T-Shirts</a>
+                        <a href="" id="135">Sandals</a>
+                        <a href="" id="136">Headphones</a>
+                        <a href="" id="137">Babydolls</a>
+                        <a href="" id="138">Blazzers for Men</a>
+                        <a href="" id="139">Handbags</a>
+                        <a href="" id="140">Ladies Watches</a>
+                        <a href="" id="141">Bags</a>
+                        <a href="" id="142">Sports Shoes</a>
+                        <a href="" id="143">Rebook Shoes</a>
+                        <a href="" id="144">Formal Shoes</a>
+                        <a href="" id="135">Boxers</a>
+                        <a href="" id="136">Wallets</a>
+                        <a href="" id="137">Tops</a>
+                        <a href="" id="138">Earrings</a>
+                        <a href="" id="139">Fastrack Watches</a>
+                        <a href="" id="140">Kurtis</a>
+                        <a href="" id="141">Nike</a>
+                        <a href="" id="142">Smart Watches</a>
+                        <a href="" id="143">Titan Watches</a>
+                        <a href="" id="144">Designer Blouse</a>
+                        <a href="" id="145">Gowns</a>
+                        <a href="" id="146">Rings</a>
+                        <a href="" id="147">Cricket Shoes</a>
+                    </div>
+                    <div class="desktop-fInfoSection">
+                       <div class="desktop-Contact" style="color:#94969f">In case of any Concern, <a href="">Contact Us</a></div>
+                       <div class="desktop-copyWrite" style="color:#94969f">© 2025 www.myntra.com.All rights reversed</div>
+                       <div class="desktop-parentCompany" style="color:#94969f">A Flipkart Company</div>
+                    </div>
+                </div>
+            </div>
+            <div class="desktop-addressContainer" id="149">
+                    <div class="desktop-addressTitle" id="150" style="font-weight: bold; font-size: 14px;">Registered Office Address</div>
+                    <div class="desktopAddress" id="151">
+                        <address class="custom-address">
+                                 Building Alyssa,<br>
+                                 Begonia and Cover situated in Embassy Tech Village,<br>
+                                 Outer Ring Road,<br>
+                                 Devarabeesanahalli Village,<br>
+                                 Varthur Hobli,<br>
+                                 Bengaluru – 560103, India<br>
+                        </address>
+                    </div>
+                    <div class="desktop-extraContactInfo">CIN: U72300KA2007PTC041799<br>Telephone: <a href="tel:+91-80-61561999">+91-80-61561999</a></div>
+            </div>
+        </footer>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
